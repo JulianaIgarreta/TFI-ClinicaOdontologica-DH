@@ -1,0 +1,181 @@
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        width: 100%;
+    }
+
+    .gestion-turnos {
+        background-color: #1CD1B0;
+        color: black;
+        font-size: 1rem;
+        padding: 0.3rem 1.2rem;
+    }
+
+    .verde_oscuro {
+        font-family: 'Inter', sans-serif;
+        background-color: #00669F;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 0.5rem 1.2rem;
+    }
+
+    .formulario {
+        padding: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .form_2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titular {
+        font-size: 3rem;
+        font-family: 'Inter', sans-serif;
+        margin: 0rem 0rem 1.5rem 0.7rem;
+        align-items: flex-start;
+    }
+
+    input {
+        height: 2.5rem;
+        width: 30rem;
+        margin: 0.5rem 0rem 0.5rem 0rem;
+        padding: 0rem 0.5rem;
+    }
+
+    button {
+        margin: 2rem 0rem 2rem 0rem;
+        width: 31rem;
+        height: 2.5rem;
+        background-color: #1CD1B0;
+        align-items: center;
+        border-radius: 15px;
+        outline: none;
+        box-shadow: none;
+        font-weight: 700;
+    }
+
+    .btn-danger {
+        outline: none;
+        background-color: #1CD1B0;
+        color: black;
+        border: 0;
+    }
+
+    footer {
+        padding: 1.5rem;
+        background-color: #00669F;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    textarea {
+        margin: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    .botones_contactos {
+        display: flex;
+        width: 30rem;
+        justify-content: center;
+    }
+
+    .boton_listar {
+        margin: 2rem 2rem 0rem 0rem;
+        background-color: #00669F;
+        color: white;
+    }
+
+    select {
+        height: 2.5rem;
+        width: 30rem;
+        margin: 0.5rem 0rem 0.5rem 0rem;
+        padding: 0rem 0.5rem;
+    }
+
+    .ingreso {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav {
+        height: 2rem;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        color: white;
+        align-items: center;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .blanco {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 1.2rem;
+    }
+
+    section {
+        display: flex;
+        margin: auto;
+        background-color: white;
+        justify-content: center;
+        padding: 90px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: 'Roboto', sans-serif;
+        padding: 0rem 0rem 1rem 0rem;
+    }
+
+    .btn {
+        background-color: #00669F;
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        font-size: 20px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        margin: 10px 21px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    th {
+        justify-content: space-around;
+        padding: 25px 40px;
+    }
+
+    .footer_final {
+        display: flex;
+        align-items: flex-end;
+        margin: 300px 0px;
+    }

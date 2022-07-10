@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="style/styles.css">
+    <!-- TIPOGRAFIAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/post_paciente.js"></script>
+    <title>Formularios</title>
+</head>
+
+<body>
+<header>
+    <div class="gestion-turnos">
+        <span>Sistema de gestión de turnos</span>
+    </div>
+    <div class="verde_oscuro">
+        <span>Happy Tooth</span>
+    </div>
+    <div class="boton-home"> <!--Contenedor para agregar el boton para volver al home nav nav-pills nav-item nav-link-->
+        <a class="nav-link" href="indice.html"><button class="btn"><i class="fa fa-home"></i></button></a> <!--Icono para volver al home-->
+    </div>
+</header>
+<section class="formulario">
+    <form id="add_new_paciente">
+        <h1 class="titular">Registro Paciente</h1>
+        <div class="form-group">
+            <p>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+            </p>
+            <p>
+                <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" required>
+            </p>
+            <p>
+                <input type="text" class="form-control" id="domicilio"  name="domicilio" placeholder="Domicilio" required>
+            </p>
+            <p>
+                <input type="text" class="form-control" id="dni" name="dni" placeholder="DNI" required>
+            </p>
+            <p>
+                <input type="date" name="fecha" class="form-control" id="fecha" placeholder="Fecha" required>
+            </p>
+            <div class="botones_contactos">
+                <button type="submit" class="btn-danger" id="btn-add-new-paciente">Registrar</button>
+
+            </div>
+
+
+        </div>
+    </form>
+    <div id="response" style="display:none; margin:10px"><!--ACA EL RESPONSE!!!!-->
+    </div>
+</section>
+
+
+<footer>
+    <span>Todos los derechos reservados a Juliana Igarreta y Digital House</span>
+</footer>
+</body>
+
+</html>
