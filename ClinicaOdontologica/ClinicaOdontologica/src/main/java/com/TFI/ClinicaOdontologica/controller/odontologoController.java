@@ -12,7 +12,6 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("/odontologos")
-@CrossOrigin(origins = "http://localhost")
 
 public class odontologoController {
     @Autowired

@@ -37,3 +37,5 @@
  at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.TFI.ClinicaOdontologica.entidades.PacienteDTO["fechaDelAlta"])
 [2022-07-08 21:38:02] [ ERROR] [GlobalExceptionHandler:17] Cannot deserialize value of type `java.util.Date` from String "2022-05-22 T 03:00:00.000+0000": not a valid representation (error: Failed to parse Date value '2022-05-22 T 03:00:00.000+0000': Cannot parse date "2022-05-22 T 03:00:00.000+0000": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
  at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.TFI.ClinicaOdontologica.entidades.PacienteDTO["fechaDelAlta"])
+[2022-07-11 21:40:33] [ ERROR] [GlobalExceptionHandler:17] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(2 AS BIGINT))"; SQL statement:
+delete from pacientes where id=? [23503-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement

@@ -16,6 +16,7 @@ window.addEventListener('load', function() {
             const settings ={
             method: 'PUT',
             headers: {
+                "Access-Control-Allow-Origin": "*",
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(formData)

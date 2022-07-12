@@ -14,8 +14,6 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("/turnos")
-@CrossOrigin(origins = "http://localhost")
-
 public class TurnosController {
 
     @Autowired
