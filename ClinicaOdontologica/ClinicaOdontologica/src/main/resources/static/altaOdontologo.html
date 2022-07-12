@@ -17,7 +17,7 @@
     <!-- ICONOS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script type="text/javascript" src="js/post_paciente.js"></script>
+    <script type="text/javascript" src="js/post_odontologo.js"></script>
     <title>Formularios</title>
 </head>
 
@@ -30,12 +30,12 @@
         <span>Happy Tooth</span>
     </div>
     <div class="boton-home"> <!--Contenedor para agregar el boton para volver al home nav nav-pills nav-item nav-link-->
-        <a class="nav-link" href="indicePacientes.html"><button class="btn"><i class="fa fa-home"></i></button></a> <!--Icono para volver al home-->
+        <a class="nav-link" href="indiceOdontologos.html"><button class="btn"><i class="fa fa-home"></i></button></a> <!--Icono para volver al home-->
     </div>
 </header>
 <section class="formulario">
-    <form id="add_new_paciente">
-        <h1 class="titular">Registro Paciente</h1>
+    <form id="add_new_odontologo">
+        <h1 class="titular">Registro Odontologo</h1>
         <div class="form-group">
             <p>
                 <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
@@ -44,14 +44,8 @@
                 <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" required>
             </p>
             <p>
-                <input type="text" class="form-control" id="domicilio"  name="domicilio" placeholder="Domicilio" required>
-            </p>
-            <p>
-                <input type="text" class="form-control" id="dni" name="dni" placeholder="DNI" required>
-            </p>
-            <p>
-                <input type="date" name="fecha" class="form-control" id="fecha" placeholder="Fecha" required>
-            </p>
+                <input type="text" class="form-control" id="matricula"  name="matricula" placeholder="Matrícula" required>
+
             <div class="botones_contactos">
                 <button type="submit" class="btn-danger" id="btn-add-new-paciente">Registrar</button>
 

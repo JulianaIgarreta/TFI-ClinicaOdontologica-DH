@@ -15,9 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="js/get_paciente.js"></script>
-    <script type="text/javascript" src="js/put_paciente.js"></script>
-    <script type="text/javascript" src="js/delete_paciente.js"></script>
+    <script type="text/javascript" src="js/get_odontologo.js"></script>
+    <script type="text/javascript" src="js/put_odontologos.js"></script>
+    <script type="text/javascript" src="js/delete_odontologo.js"></script>
 
 
 
@@ -33,24 +33,20 @@
         <span>Happy Tooth</span>
     </div>
     <div class="boton-home">
-        <a class="nav-link" href="indicePacientes.html"><button class="btn"><i class="fa fa-home"></i></button></a>
+        <a class="nav-link" href="indiceOdontologos.html"><button class="btn"><i class="fa fa-home"></i></button></a>
     </div>
 </header>
 
-<div id="div_pacientes_table"><!--Comienza la tabla de pacientes-->
-    <h1>Pacientes</h1>
+<div id="div_odontologos_table"><!--Comienza la tabla de pacientes-->
+    <h1>Odontólogos</h1>
     <div class="row col-md-6 table-responsive"> <!--div para determinar las row-->
-        <table id="pacientesTable" class="table table-striped"> <!--tabla pacientes-->
+        <table id="odontologosTable" class="table table-striped">
             <thead>
             <tr>
                 <th> Id </th>
                 <th> Nombre </th>
                 <th> Apellido </th>
-                <th> Domicilio </th>
-                <th> DNI </th>
-                <th> fechaAlta </th>
-                <th></th>
-                <th></th>
+                <th> Matrícula </th>
                 <th></th>
 
             </tr>
@@ -63,11 +59,11 @@
 </div>
 <div class="row"> <!--Al hacer click sobre el ID desplega la posibilidad de modificar-->
     <div class="col-sm-6" style="display: none;
-        background-color:#e6fffa; padding: 10px; border-radius: 3px" id="div_paciente_updating"><!--Aca el id de div paciente updating-->
-        <form id="update_pacientes_form"> <!--Aca el otro update-->
+        background-color:#e6fffa; padding: 10px; border-radius: 3px" id="div_odontologo_updating"><!--Aca el id de div paciente updating-->
+        <form id="update_odontologo_form"> <!--Aca el otro update-->
             <div class="form-group">
                 <label>Id:</label>
-                <input type="text" class="form-control" id="paciente_id" readonly>
+                <input type="text" class="form-control" id="odontologo_id" readonly>
             </div>
             <div class="form-group">
                 <label> Nombre:</label>
@@ -76,6 +72,10 @@
             <div class="form-group">
                 <label> Apellido: </label>
                 <input type="text" class="form-control" placeholder="Apellido" id="apellido">
+            </div>
+            <div class="form-group">
+                <label> Matrícula: </label>
+                <input type="text" class="form-control" placeholder="Matricula" id="matricula">
             </div>
 
             <button type="submit" class="btn-primary"> Modificar</button>

@@ -31,9 +31,9 @@ window.addEventListener('load', function() {
                 pacienteRow.innerHTML = '<td>' + updateButton + '</td>' +
                                    '<td class=\"td_first_name\">' + paciente.nombre.toUpperCase() + '</td>' +
                                    '<td class=\"td_last_name\">' + paciente.apellido.toUpperCase() +'</td>'+
-                                   '<td class=\"td_last_name\">' + paciente.domicilio.toUpperCase() +'</td>'+
-                                   '<td class=\"td_last_name\">' + paciente.dni.toUpperCase() +'</td>'+
-                                   '<td class=\"td_last_name\">' + paciente.fecha +'</td>'+
+                                   '<td class=\"td_address\">' + paciente.domicilio.toUpperCase() +'</td>'+
+                                   '<td class=\"td_dni\">' + paciente.dni.toUpperCase() +'</td>'+
+                                   '<td class=\"td_date\">' + paciente.fecha +'</td>'+
                                     '<td>' + deleteButton + '</td>'
 
             };

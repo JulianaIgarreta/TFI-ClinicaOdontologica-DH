@@ -39,3 +39,5 @@
  at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.TFI.ClinicaOdontologica.entidades.PacienteDTO["fechaDelAlta"])
 [2022-07-11 21:40:33] [ ERROR] [GlobalExceptionHandler:17] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(2 AS BIGINT))"; SQL statement:
 delete from pacientes where id=? [23503-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-07-11 22:47:54] [ ERROR] [GlobalExceptionHandler:17] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(5 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
